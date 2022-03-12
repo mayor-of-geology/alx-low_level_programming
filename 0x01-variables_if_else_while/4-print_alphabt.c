@@ -10,9 +10,9 @@ int main(void)
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 26; i++)
 	{
-		if (i != 'p' && i != 'e')
+		if (i != "p" && i != "e")
 		{
 			putchar(alp[i]);
 		}
