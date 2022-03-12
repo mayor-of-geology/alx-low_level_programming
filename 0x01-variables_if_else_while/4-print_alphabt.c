@@ -1,20 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * main - Prints the alphabet.
+ * main - Prints the alphabet without q and e using their ASCII values
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (i != 'p' && i != 'e')
+		if (i != 101 && i != 113)
 		{
-			putchar(alp[i]);
+			putchar(i);
 		}
 	}
 	putchar('\n');
