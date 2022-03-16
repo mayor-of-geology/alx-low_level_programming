@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned
+ * main - entry point
+ * Descriptipn: a program that prints _putchar,
+ * followed by a new line.
+ * Return: 0;
  */
 int main(void)
 {
