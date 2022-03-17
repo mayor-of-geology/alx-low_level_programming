@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints number 0 - 9
- * Return: number 0 - 9 with a new line
+ * Return: no return
  */
 void print_numbers(void)
 {
