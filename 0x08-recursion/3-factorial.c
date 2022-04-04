@@ -1,22 +1,16 @@
 #include "main.h"
 
 /**
- * factorial - returns the factorila of a given number
- * @n: integer
- * Return: return -1 if n is lower than 0
+ * factorial - returns the factorial of a given number.
+ * @n: input number.
+ * Return: factorial of the number.
  */
 int factorial(int n)
 {
 	if (n < 0)
-	{
 		return (-1);
-	}
 	else if (n == 0)
-	{
 		return (1);
-	}
 	else
-	{
-		return (n * factorial(n-1));
-	}
+		return (n * factorial(n - 1));
 }
