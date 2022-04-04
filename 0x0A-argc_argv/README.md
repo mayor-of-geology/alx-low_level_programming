@@ -12,3 +12,4 @@
 |`2-args.c`|a program that prints all arguments received|
 |`3-mul.c`|a program that multiples two number|
 |`4-add.c`|a program that adds positive number|
+|`100-change.c`| prints the minimum number of coins to make change for an amount of money|
