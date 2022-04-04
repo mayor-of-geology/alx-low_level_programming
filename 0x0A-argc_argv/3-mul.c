@@ -4,7 +4,7 @@
 /**
  * main - multiplies two number
  * @argc - number of CL arguments
- * @argc - array of CL arguments
+ * @argv - array of CL arguments
  * Return: nothing
  */
 int main(int argc, char *argv[])
